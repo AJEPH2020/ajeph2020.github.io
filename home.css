@@ -81,7 +81,7 @@ svg {
 }
 
 
-.loadFont{
+.loadFont {
     position: absolute;
     display: flex;
     align-items: center;
@@ -89,6 +89,71 @@ svg {
     color: #eee;
     font-size: 17px;
 }
+
+/* #loadFontDot1 {
+    visibility: hidden;
+    animation: loadFontDot1Anim 16s ease-in-out infinite;
+}
+
+#loadFontDot2 {
+    visibility: hidden;
+    animation: loadFontDot2Anim 16s ease-in-out infinite;
+}
+
+#loadFontDot3 {
+    visibility: hidden;
+    animation: loadFontDot3Anim 16s ease-in-out infinite;
+}
+
+@keyframes loadFontDot1Anim {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: visible;
+    }
+
+    50% {
+        visibility: visible;
+    }
+
+    75% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes loadFontDot2Anim {
+    0% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes loadFontDot3Anim {
+    0% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+} */
 
 
 /*-----------Background-----------*/
@@ -232,7 +297,6 @@ nav a img:hover {
 .navLinks ul li a:hover {
     color: #f44336;
     font-size: 20px;
-    /* do if possible */
 }
 
 #cross {
@@ -259,7 +323,7 @@ nav a img:hover {
 }
 
 .textBox h1 {
-    font-size: 90px;
+    font-size: 6vw;
     text-align: center;
     margin: 5% 0% 5%;
     transition: 0.3s;
@@ -404,7 +468,7 @@ nav a img:hover {
 }
 
 .textBox1 h1 {
-    font-size: 90px;
+    font-size: 6vw;
     text-align: center;
     margin: 0vh 0% 7vh;
     transition: 0.3s;
@@ -415,7 +479,7 @@ nav a img:hover {
 
 .textBox1 b {
     color: #111;
-    font-size: 3vh;
+    font-size: 30px;
     text-align: justify;
     text-justify: inter-word;
     transition: 0.3s;
@@ -445,7 +509,7 @@ nav a img:hover {
 }
 
 .textBoxProject h1 {
-    font-size: 90px;
+    font-size: 6vw;
     text-align: center;
     margin: 5% 0% 5%;
     transition: 0.3s;
@@ -523,7 +587,7 @@ nav a img:hover {
     text-justify: inter-word;
 }
 
-.pText p a{
+.pText p a {
     color: blue;
 }
 
@@ -565,7 +629,6 @@ nav a img:hover {
 
 /*-----------Skills-----------*/
 .skills {
-    height: 100vh;
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -584,7 +647,7 @@ nav a img:hover {
 
 .textBoxBlack h1 {
     color: black;
-    font-size: 90px;
+    font-size: 6vw;
     text-align: center;
     margin: 15vh 0 0;
     transition: 0.3s;
@@ -606,7 +669,7 @@ nav a img:hover {
 
 /*-----------Photography-----------*/
 .photography {
-    height: 100vh;
+    padding: 0 0 2%;
     background: radial-gradient(rgba(30, 30, 30, 0.95), rgba(40, 40, 40, 0.7));
 }
 
@@ -624,7 +687,7 @@ nav a img:hover {
     margin: auto;
     display: flex;
     width: 80vw;
-    height: 25vh;
+    height: 20vh;
 }
 
 .pTextBox h1 {
@@ -636,8 +699,7 @@ nav a img:hover {
 }
 
 .container .swiper {
-    width: 30%;
-    height: 100vh;
+    max-width: 50vh;
     height: fit-content;
 }
 
@@ -887,14 +949,6 @@ nav a img:hover {
 
 
     /*-----------Projects-----------*/
-    .textBoxProject h1 {
-        font-size: 12vw;
-        text-align: center;
-        margin: 5vh 0% 5vh;
-        transition: 0.3s;
-    }
-
-
     .pColumn {
         display: flex;
         justify-content: space-between;
@@ -912,12 +966,13 @@ nav a img:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border-radius: 1vh;
+        border-radius: 10px;
         background: #eee;
         margin-top: 5vh;
         margin-bottom: 5vh;
         box-shadow: 0 0 10px 0px rgb(0, 0, 0, 0.5);
         width: 90%;
+        max-width: 90vh;
         transition: 0.5s;
     }
 
@@ -938,58 +993,58 @@ nav a img:hover {
         margin: 2%;
         height: auto;
         width: 96%;
-        border-radius: 0.9vh;
+        border-radius: 7px;
     }
 
     .pText {
         display: table;
         top: 0;
         left: 0;
-        margin: 1vh;
+        margin: 10%;
 
     }
 
     .pText h3 {
         text-align: left;
         font-weight: 600;
-        font-size: 2.5vh;
+        font-size: 20px;
     }
 
     .pText h5 {
         color: #111;
-        font-size: 1.8vh;
+        font-size: 15px;
         font-weight: 550;
     }
 
     .pText p {
-        margin-top: 2vh;
-        font-size: 1.8vh;
+        margin-top: 2%;
+        font-size: 15px;
         text-align: justify;
         text-justify: inter-word;
     }
 
     .gitHubLink {
-        margin-top: 2vh;
-        margin-left: 0.5vw;
-        margin-right: 0.5vw;
-        margin-bottom: 1vh;
+        margin-top: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
     }
 
     .gitHubLink a i {
         color: rgb(180, 180, 180);
-        font-size: 5vh;
+        font-size: 300%;
     }
 
     .activeGitHub {
-        margin-top: 2vh;
-        margin-left: 0.5vw;
-        margin-right: 0.5vw;
-        margin-bottom: 1vh;
+        margin-top: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 5%;
     }
 
     .activeGitHub a i {
-        color: blue;
-        font-size: 5vh;
+        color: rgb(0, 98, 219);
+        font-size: 300%;
     }
 
 
@@ -1002,100 +1057,12 @@ nav a img:hover {
         z-index: 5;
     }
 
-}
-
-@media(max-width: 850px) {
-
-    /*-----------Contact-----------*/
-    .footer h1 {
-        height: 15vh;
-        font-weight: 600;
-        font-size: 12vw;
-        color: #fff;
-        /* box-shadow: 0 0 50px 0 #eee; */
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .container .swiper {
+        width: 40vh;
+        max-width: 80vw;
+        height: fit-content;
     }
 
-    .footer .contacts {
-        font-weight: 600;
-        font-size: 2vh;
-        overflow-x: hidden;
-        overflow-y: hidden;
-        width: 100%;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 2vh;
-        transition: 0.3s;
-    }
-
-    .hostel i,
-    .webMail i,
-    .gMail i {
-        color: #eee;
-        font-size: 10vh;
-        transition: 0.3s;
-    }
-
-    .hostel i:hover,
-    .webMail i:hover,
-    .gMail i:hover {
-        font-size: 12vh;
-        color: rgb(0, 89, 255);
-    }
-
-    .footer .footerIcons {
-        overflow-x: hidden;
-        overflow-y: hidden;
-        /* margin-top: 50vh; */
-        color: #eee;
-        width: 100%;
-        height: 10vh;
-        margin-top: 2vh;
-        z-index: 10;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        /* box-shadow: 0 0 50px 0 #eee; */
-    }
-
-    .footer .footerIcons a {
-        margin-left: 2%;
-        margin-right: 2%;
-        transition: 0.3s;
-    }
-
-    .footer hr {
-        height: 0;
-        margin-top: 2vh;
-    }
-
-    .copyrightDiv {
-        margin: 2vh;
-        height: 7vh;
-    }
-
-    .copyright {
-        /* margin-bottom: 25%; */
-        /* font-weight: 600; */
-        height: 7vh;
-        font-size: 2vh;
-        color: #fff;
-        /* box-shadow: 0 0 50px 0 #eee; */
-    }
-
-    .copyright a {
-        color: #f44336;
-    }
-
-    .y {
-        color: #5b78c7;
-    }
 }
 
 @media(max-width: 800px) {
@@ -1112,7 +1079,7 @@ nav a img:hover {
     }
 
     .textBox h1 {
-        font-size: 11vw;
+        font-size: 6vw;
         text-align: center;
         padding: 20% 0% 15%;
         transition: 0.3s;
@@ -1163,15 +1130,15 @@ nav a img:hover {
 
     /*-----------About-----------*/
     .textBox1 h1 {
-        font-size: 12vw;
+        font-size: 7vw;
         text-align: center;
-        margin: 0vh 0% 7vh;
+        margin: 0 0 12%;
         transition: 0.3s;
     }
 
     .textBox1 b {
         color: #111;
-        font-size: 1.8vh;
+        font-size: 4vw;
         text-align: justify;
         text-justify: inter-word;
         transition: 0.3s;
@@ -1179,6 +1146,13 @@ nav a img:hover {
 
 
     /*-----------Projects-----------*/
+    .textBoxProject h1 {
+        font-size: 7vw;
+        text-align: center;
+        margin: 5vh 0% 5vh;
+        transition: 0.3s;
+    }
+
     .collab {
         width: 90%;
         height: auto;
@@ -1189,8 +1163,67 @@ nav a img:hover {
         justify-content: center;
         align-items: center;
 
-        font-size: 3vw;
+        font-size: 100%;
         font-weight: 550;
+    }
+
+
+    /*-----------Skills-----------*/
+    .textBoxBlack h1 {
+        color: black;
+        font-size: 7vw;
+        text-align: center;
+        margin: 5vh 0 0;
+        transition: 0.3s;
+    }
+
+    #gameCanvas {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /*-----------Photography-----------*/
+    .container .swiper {
+        width: 30vh;
+        max-width: 80vw;
+        height: fit-content;
+    }
+
+
+    /*-----------Contact-----------*/
+    .footer h1 {
+        font-size: 7vw;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    /*-----------Home-----------*/
+    .textBox h1 {
+        font-size: 11vw;
+        text-align: center;
+        padding: 20% 0% 15%;
+        transition: 0.3s;
+    }
+
+
+    /*-----------About-----------*/
+    .textBox1 h1 {
+        font-size: 12vw;
+        text-align: center;
+        margin: 0 0 12%;
+        transition: 0.3s;
+    }
+
+
+    /*-----------Projects-----------*/
+    .textBoxProject h1 {
+        font-size: 12vw;
+        text-align: center;
+        margin: 5vh 0% 5vh;
+        transition: 0.3s;
     }
 
 
@@ -1203,16 +1236,16 @@ nav a img:hover {
         transition: 0.3s;
     }
 
-    #gameCanvas {
-        width: 100%;
-        height: auto;
-    }
 
     /*-----------Photography-----------*/
+
+    .photography {
+        padding-bottom: 10%;
+    }
+
     .container {
         margin: auto;
         width: 80%;
-        height: 70vh;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -1236,10 +1269,11 @@ nav a img:hover {
     }
 
     .container .swiper {
-        width: 80%;
-        height: 100vh;
+        width: 30vh;
+        max-width: 80vw;
         height: fit-content;
     }
+
 
     /*-----------Contact-----------*/
     .footer h1 {
@@ -1332,9 +1366,7 @@ nav a img:hover {
         color: #5b78c7;
     }
 
-
 }
-
 
 html {
     scroll-behavior: smooth;
