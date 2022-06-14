@@ -313,8 +313,8 @@ class Particle {
                 this.directionX = this.directionX - ax/100;
                 this.directionY = this.directionY + ay/100;
             }
-            this.directionX = this.directionX*0.98;
-            this.directionY = this.directionY*0.98;
+            this.directionX = this.directionX*0.999999999;
+            this.directionY = this.directionY*0.999999999;
             
         } else {
             this.directionY += 0.005;
