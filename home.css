@@ -115,16 +115,16 @@ svg {
 /* 
 @keyframes change {
     0%{
-        background-image: url(images/pexels-daria-shevtsova-916335.jpg);
+        background-image: url(helpers/pexels-daria-shevtsova-916335.jpg);
     }
     33%{
-        background-image: url(images/pexels-sharad-kachhi-3937174.jpg);
+        background-image: url(helpers/pexels-sharad-kachhi-3937174.jpg);
     }
     67%{
-        background-image: url(images/pexels-polina-zimmerman-3747145.jpg);
+        background-image: url(helpers/pexels-polina-zimmerman-3747145.jpg);
     }
     100%{
-        background-image: url(images/pexels-daria-shevtsova-916335.jpg);
+        background-image: url(helpers/pexels-daria-shevtsova-916335.jpg);
     }
 } */
 @keyframes flowInHdr {
