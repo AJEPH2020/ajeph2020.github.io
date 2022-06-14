@@ -308,11 +308,11 @@ class Particle {
         if (ax != 0 || ay != 0) {
             var landscapeOrientation = window.innerWidth / window.innerHeight > 1;
             if (landscapeOrientation) {
-                this.directionX = this.directionX + ay/500;
-                this.directionY = this.directionY + ax/500;
+                this.directionX = this.directionX + ay/10000000;
+                this.directionY = this.directionY + ax/10000000;
             } else {
-                this.directionX = this.directionX - ax/500;
-                this.directionY = this.directionY + ay/500;
+                this.directionX = this.directionX - ax/10000000;
+                this.directionY = this.directionY + ay/10000000;
             }
         } else {
             this.directionY += 0.005;
