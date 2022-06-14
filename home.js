@@ -308,11 +308,11 @@ class Particle {
             }
             var landscapeOrientation = window.innerWidth / window.innerHeight > 1;
             if (landscapeOrientation) {
-                this.directionX = this.directionX + ay/50;
-                this.directionY = this.directionY + ax/50;
+                this.directionX = this.directionX + ay/100;
+                this.directionY = this.directionY + ax/100;
             } else {
-                this.directionX = this.directionX + ax/50;
-                this.directionY = this.directionY - ay/50;
+                this.directionX = this.directionX + ax/100;
+                this.directionY = this.directionY - ay/100;
             }
         } else {
             this.directionY += 0.005;
