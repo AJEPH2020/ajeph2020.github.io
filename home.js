@@ -304,7 +304,7 @@ class Particle {
             ax = window.event.accelerationIncludingGravity.x * 5;
             ay = window.event.accelerationIncludingGravity.y * 5;
         }
-        console.log("1 ok");
+        // console.log("1 ok");
         if (ax != 0 || ay != 0) {
             var landscapeOrientation = window.innerWidth / window.innerHeight > 1;
             if (landscapeOrientation) {
@@ -321,8 +321,14 @@ class Particle {
         if (this.directionX > 2.5) {
             this.directionX = 2.5;
         }
+        if (this.directionX < -2.5) {
+            this.directionX = -2.5;
+        }
         if (this.directionY > 2.5) {
             this.directionY = 2.5;
+        }
+        if (this.directionY < -2.5) {
+            this.directionY = -2.5;
         }
 
         this.x += this.directionX;
