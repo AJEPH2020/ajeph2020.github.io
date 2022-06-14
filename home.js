@@ -300,19 +300,18 @@ class Particle {
         }
         // move particle
 
-        if (window.DeviceMotionEvent != undefined) {
-            window.ondevicemotion = function (e) {
-                ax = window.event.accelerationIncludingGravity.x * 5;
-                ay = window.event.accelerationIncludingGravity.y * 5;
-                console.log(ax + ' ' + ay);
-            }
+        window.ondevicemotion = function (e) {
+            ax = window.event.accelerationIncludingGravity.x * 5;
+            ay = window.event.accelerationIncludingGravity.y * 5;
+        }
+        if (ax != 0 || bx != 0) {
             var landscapeOrientation = window.innerWidth / window.innerHeight > 1;
             if (landscapeOrientation) {
                 this.directionX = this.directionX + ay/100;
                 this.directionY = this.directionY + ax/100;
             } else {
-                this.directionX = this.directionX + ax/100;
-                this.directionY = this.directionY - ay/100;
+                this.directionX = this.directionX - ax/100;
+                this.directionY = this.directionY + ay/100;
             }
         } else {
             this.directionY += 0.005;
