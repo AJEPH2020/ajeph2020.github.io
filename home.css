@@ -81,6 +81,16 @@ svg {
 }
 
 
+.loadFont{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    font-size: 17px;
+}
+
+
 /*-----------Background-----------*/
 #canvas1 {
     position: fixed;
@@ -885,6 +895,18 @@ nav a img:hover {
     }
 
 
+    .pColumn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 90%;
+        height: auto;
+        z-index: 3;
+    }
+
     .pRow {
         display: flex;
         flex-direction: column;
@@ -1167,7 +1189,7 @@ nav a img:hover {
         justify-content: center;
         align-items: center;
 
-        font-size: 2vh;
+        font-size: 2.5vw;
     }
 
 
