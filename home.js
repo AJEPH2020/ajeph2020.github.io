@@ -304,31 +304,32 @@ class Particle {
             ax = window.event.accelerationIncludingGravity.x * 5;
             ay = window.event.accelerationIncludingGravity.y * 5;
         }
-        // console.log("1 ok");
         if (ax != 0 || ay != 0) {
             var landscapeOrientation = window.innerWidth / window.innerHeight > 1;
             if (landscapeOrientation) {
-                this.directionX = this.directionX + ay/1000000;
-                this.directionY = this.directionY + ax/1000000;
+                this.directionX = this.directionX + ay/100000;
+                this.directionY = this.directionY + ax/100000;
             } else {
-                this.directionX = this.directionX - ax/1000000;
-                this.directionY = this.directionY + ay/1000000;
+                this.directionX = this.directionX - ax/100000;
+                this.directionY = this.directionY + ay/100000;
             }
         } else {
             this.directionY += 0.005;
         }
 
-        if (this.directionX > 2.5) {
-            this.directionX = 2.5;
+        // console.log(window.innerWidth/250);
+
+        if (this.directionX > window.innerWidth/250) {
+            this.directionX = window.innerWidth/250;
         }
-        if (this.directionX < -2.5) {
-            this.directionX = -2.5;
+        if (this.directionX < -window.innerWidth/250) {
+            this.directionX = -window.innerWidth/250;
         }
-        if (this.directionY > 2.5) {
-            this.directionY = 2.5;
+        if (this.directionY > window.innerHeight/250) {
+            this.directionY = window.innerHeight/250;
         }
-        if (this.directionY < -2.5) {
-            this.directionY = -2.5;
+        if (this.directionY < -window.innerHeight/250) {
+            this.directionY = -window.innerHeight/250;
         }
 
         this.x += this.directionX;

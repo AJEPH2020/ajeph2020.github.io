@@ -16,8 +16,6 @@
     position: fixed;
     width: 100vw;
     z-index: 500;
-    animation: preLoad 1s ease-in-out 3s 1 forwards;
-
 }
 
 @keyframes preLoad {
@@ -61,8 +59,8 @@
 }
 
 .rotate {
-    animation: animate 4s ease-in-out infinite;
-    animation-delay: calc(-0.2s * var(--j));
+    animation: animate 3s ease-in-out infinite;
+    animation-delay: calc(-0.12s * var(--j));
 }
 
 @keyframes animate {
@@ -87,7 +85,7 @@ svg {
     align-items: center;
     justify-content: center;
     color: #eee;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /* #loadFontDot1 {
@@ -599,7 +597,7 @@ nav a img:hover {
 
 .gitHubLink a i {
     color: rgb(180, 180, 180);
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 .activeGitHub {
@@ -610,7 +608,7 @@ nav a img:hover {
 
 .activeGitHub a i {
     color: blue;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 
