@@ -307,29 +307,29 @@ class Particle {
         if (ax != 0 || ay != 0) {
             var landscapeOrientation = window.innerWidth / window.innerHeight > 1;
             if (landscapeOrientation) {
-                this.directionX = this.directionX + ay/1000;
-                this.directionY = this.directionY + ax/1000;
+                this.directionX = this.directionX + ay/10000;
+                this.directionY = this.directionY + ax/10000;
             } else {
-                this.directionX = this.directionX - ax/1000;
-                this.directionY = this.directionY + ay/1000;
+                this.directionX = this.directionX - ax/10000;
+                this.directionY = this.directionY + ay/10000;
             }
         } else {
             this.directionY += 0.005;
         }
 
-        console.log(window.innerWidth/250);
+        console.log("linearG: " + window.innerWidth/100);
 
-        if (this.directionX > window.innerWidth/250) {
-            this.directionX = window.innerWidth/250;
+        if (this.directionX > window.innerWidth/100) {
+            this.directionX = window.innerWidth/100;
         }
-        if (this.directionX < -window.innerWidth/250) {
-            this.directionX = -window.innerWidth/250;
+        if (this.directionX < -window.innerWidth/100) {
+            this.directionX = -window.innerWidth/100;
         }
-        if (this.directionY > window.innerHeight/250) {
-            this.directionY = window.innerHeight/250;
+        if (this.directionY > window.innerHeight/100) {
+            this.directionY = window.innerHeight/100;
         }
-        if (this.directionY < -window.innerHeight/250) {
-            this.directionY = -window.innerHeight/250;
+        if (this.directionY < -window.innerHeight/100) {
+            this.directionY = -window.innerHeight/100;
         }
 
         this.x += this.directionX;
