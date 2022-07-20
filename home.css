@@ -393,7 +393,8 @@ nav a img:hover {
 .linkedIn i,
 .gitHub i,
 .insta i,
-.youTube i {
+.youTube i,
+.facebook i {
     color: #eee;
     transition: 0.3s;
     font-size: 40px;
@@ -417,6 +418,11 @@ nav a img:hover {
 .youTube i:hover {
     font-size: 50px;
     color: red;
+}
+
+.facebook i:hover {
+    font-size: 50px;
+    color: rgb(37, 171, 255);
 }
 
 /* ------------------------------- to see imppp ----------------------------------- */
@@ -1366,6 +1372,8 @@ nav a img:hover {
 
 }
 
+
+/*-----------smooth_scroll-----------*/
 html {
     scroll-behavior: smooth;
 }
