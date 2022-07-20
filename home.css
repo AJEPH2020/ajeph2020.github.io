@@ -14,7 +14,7 @@
 }
 
 ::-webkit-scrollbar-track{
-    background: hsl(0, 0%, 0%);
+    background: #000;
     border-radius: 100vw;
     margin-block: 0.7em;
 }
