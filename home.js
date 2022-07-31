@@ -316,7 +316,7 @@ class Particle {
                 this.directionY = this.directionY + ay/5000;
             }
         } else {
-            this.directionY += 0.005;
+            this.directionY += 0.002;
         }
 
         // console.log("G: " + window.innerWidth/100);
@@ -352,8 +352,8 @@ function init() {
         let size = (Math.random() * 5) + 1;
         let x = (Math.random() * ((innerWidth - size * 2) - (size * 2)) + (size * 2));
         let y = (Math.random() * ((innerHeight - size * 2) - (size * 2)) + (size * 2));
-        let directionX = (Math.random() * 5) - 2.5;
-        let directionY = (Math.random() * 5) - 2.5;
+        let directionX = (Math.random() * 3) - 1.5;
+        let directionY = (Math.random() * 3) - 1.5;
         let color = 'rgb(' + (Math.random() * 255) + ',' + (Math.random() * 255) + ',' + (Math.random() * 255) + ')';
 
         particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
