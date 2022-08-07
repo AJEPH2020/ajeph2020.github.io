@@ -10,8 +10,6 @@ var pText = document.querySelectorAll(".pText");
 
 var maxHNav = 180;
 
-// var logoSwell = 0;
-
 
 const threeLine = document.querySelector(".threeLine");
 const navLinks = document.querySelector(".navLinks");
