@@ -40,12 +40,12 @@ document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
         document.querySelector(".preLoader").style.animation = "none";
         document.querySelector(".header").style.animation = "none";
-        document.querySelector("nav").style.animation = "none";
+        nav.style.animation = "none";
         document.body.style.setProperty("--scrollbar-width", "0em");
     } else {
         document.querySelector(".preLoader").style.animation = "preLoad 1s ease-in-out 0.8s 1 forwards";
         document.querySelector(".header").style.animation = "flowInHdr 2s ease-in-out 0.3s 1 forwards";
-        document.querySelector("nav").style.animation = "flowIn 2s ease-in-out 0s 1 forwards";
+        nav.style.animation = "flowIn 2s ease-in-out 0s 1 forwards";
         document.body.style.setProperty("--scrollbar-width", "1em");
     }
 };
