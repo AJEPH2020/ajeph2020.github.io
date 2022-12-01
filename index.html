@@ -50,7 +50,120 @@
 
 <body>
 
-    
+    <section class="preLoader">
+        <svg>
+            <filter id="gooey">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+                <feColorMatrix values="
+                    1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 20 -10"></feColorMatrix>
+            </filter>
+        </svg>
+        <div class="loader">
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:7;"></span>
+            <span style="--i:8;"></span>
+            <span class="rotate" style="--j:0;"></span>
+            <span class="rotate" style="--j:1;"></span>
+            <span class="rotate" style="--j:2;"></span>
+            <span class="rotate" style="--j:3;"></span>
+            <span class="rotate" style="--j:4;"></span>
+        </div>
+        <div class="loadFont">
+            <h1> Loading<h1 id="loadFontDot1">.</h1><h1 id="loadFontDot2">.</h1><h1 id="loadFontDot3">.</h1> </h1>
+        </div>
+    </section>
+
+    <canvas id="canvas1"></canvas>
+
+    <section id="home" class="header">
+        <nav id="navBar">
+            <a href="#home">
+                <img id="logo" src="assets/output-onlinepngtools.png" alt="Home Logo"></a>
+            <div class="threeLine">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="navLinks">
+                <ul>
+                    <a id="cross"><i class="fa-solid fa-circle-xmark"></i></a>
+                    <li><a id="Home" href="#home">Home</a></li>
+                    <li><a id="About" href="#about">About</a></li>
+                    <li><a id="Skills" href="#skills">Skills</a></li>
+                    <li><a id="Projects" href="#projects">Projects</a></li>
+                    <li><a id="Photography" href="#photos">Photography</a></li>
+                    <li><a id="Contact" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/IMG20220411163751.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220523121417.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220530162203.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG_20220601_174003 (1).jpg"></div>
+                <div class="swiper-slide"><img src="assets/PXL_20220201_223338894.NIGHT.jpg"></div>
+
+                <div class="swiper-slide"><img src="assets/IMG20220217202610.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220228230931.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220306232815__01__01.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220315085103__01__01__01.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220324144439__01.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220326205748__01.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220326210010.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220326210612__01.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220326212015__01.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220403183014_01.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220411163446.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220418173434.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220517164042.jpg"></div>
+                <div class="swiper-slide"><img src="assets/IMG20220528205533.jpg"></div>
+                <div class="swiper-slide"><img src="assets/PXL_20220201_214908513.NIGHT.jpg"></div>
+                <div class="swiper-slide"><img src="assets/PXL_20220201_223218822.NIGHT.jpg"></div>
+                <div class="swiper-slide"><img src="assets/PXL_20220315_183217204__01.jpg"></div>
+                <div class="swiper-slide"><img src="assets/PXL_20220326_211536283.NIGHT__01.jpg"></div>
+
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </div> -->
+
+        <div class="textBox">
+            <h1 class="auto_type_curser"> <span class="auto_type"></span> </h1>
+            <div class="frontText">
+                <h2> I'm <strong>Atul Jeph</strong> </h2>
+                <hr>
+                <p> A junior pursuing BTech in <a href="https://www.cse.iitd.ernet.in/" target="_blank">Computer
+                        Science and Engineering</a> at <a href="https://home.iitd.ac.in/" target="_blank">IIT Delhi</a>.</p>
+            </div>
+        </div>
+
+        <div class="linkBox">
+            
+            <a class="linkedIn" href="https://www.linkedin.com/in/atul-jeph-08819921a/" target="_blank"><i
+                    class="fa-brands fa-linkedin fa-3x"></i></a>
+            <a class="gitHub" href="https://github.com/AJEPH2020" target="_blank"><i
+                    class="fa-brands fa-github fa-3x"></i></a>
+            <a class="facebook" href="https://www.facebook.com/profile.php?id=100055666158079" target="_blank"><i
+                    class="fa-brands fa-facebook fa-3x"></i></a>
+            <a class="insta" href="https://www.instagram.com/jeph.atul.2020/" target="_blank"><i
+                    class="fa-brands fa-instagram fa-3x"></i></a>
+            <!-- <a class="youTube" href="https://www.youtube.com/channel/UC4A96UjnSyr2Ljg9FEV5dfw" target="_blank"><i
+                    class="fa-brands fa-youtube fa-3x"></i></a> -->
+        </div>
+
+    </section>
 
     <section id="about" class="about">
 
@@ -181,6 +294,76 @@
             <p> Wanna collaborate? 🤝 <br> Just drop an email or a message on any of my social networks. </p>
         </div>
 
+    </section>
+
+    <section id="photos" class="photography">
+        <div class="pTextBox">
+            <h1 data-aos="zoom-in">
+                Photography
+            </h1>
+        </div>
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper" data-aos="zoom-in">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/IMG20220411163446.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326212015__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/PXL_20220201_214908513.NIGHT.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220517194755.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/PXL_20220326_211536283.NIGHT__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326210627.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220228230931.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220217202610.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220227091951__01__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220528205533.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/PXL_20220315_183217204__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326210612__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326210010.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220306232815__01__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220403183014_01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326205748__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220528205555.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220528003443.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220315085103__01__01__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220324144439__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220517164042.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/PXL_20220201_223218822.NIGHT.jpg"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <div class="swiper" data-aos="zoom-in">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/IMG_20220601_174003 (1).jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220523121417.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220530162203.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220228162523__02__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220223090355.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220309200302__01__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220411163751.jpg"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </div>
     </section>
 
     <footer id="contact" class="footer">
