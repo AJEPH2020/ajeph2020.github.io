@@ -296,6 +296,76 @@
 
     </section>
 
+    <section id="photos" class="photography">
+        <div class="pTextBox">
+            <h1 data-aos="zoom-in">
+                Photography
+            </h1>
+        </div>
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper" data-aos="zoom-in">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/IMG20220411163446.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326212015__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/PXL_20220201_214908513.NIGHT.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220517194755.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/PXL_20220326_211536283.NIGHT__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326210627.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220228230931.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220217202610.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220227091951__01__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220528205533.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/PXL_20220315_183217204__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326210612__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326210010.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220306232815__01__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220403183014_01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220326205748__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220528205555.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220528003443.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220315085103__01__01__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220324144439__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220517164042.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/PXL_20220201_223218822.NIGHT.jpg"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <div class="swiper" data-aos="zoom-in">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/IMG_20220601_174003 (1).jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220523121417.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220530162203.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220228162523__02__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220223090355.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220309200302__01__01.jpg"></div>
+                    <div class="swiper-slide"><img src="assets/IMG20220411163751.jpg"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </div>
+    </section>
+
     <footer id="contact" class="footer">
         <h1 data-aos="zoom-in">Contact Me</h1>
 
