@@ -144,7 +144,7 @@
             <div class="frontText">
                 <h2> I'm <strong>Atul Jeph</strong> </h2>
                 <hr>
-                <p> A third yearite pursuing BTech in <a href="https://www.cse.iitd.ernet.in/" target="_blank">Computer
+                <p> A third yearite pursuing my BTech in <a href="https://www.cse.iitd.ernet.in/" target="_blank">Computer
                         Science and Engineering</a> at <a href="https://home.iitd.ac.in/" target="_blank">IIT Delhi</a>.</p>
             </div>
         </div>
@@ -171,7 +171,7 @@
             <h1 data-aos="zoom-in">
                 About Me
             </h1>
-            <b data-aos="zoom-in"> I'm a front-end developer and designer, 19 years old, majoring in computer science and engineering at the Indian Institute of Technology, Delhi. <br> I have a keen interest in web development and machine learning, and I like to explore and pick up new skills. <br> <br> In addition to programming, I adore photography💙 and am constantly on the lookout for interesting things to capture. I enjoy singing and listening to music. <br> I'm a gamer for fun :P who loves playing all kinds of games but specifically High Graphics Open World and Racing games(yup, im a nerdy car enthusiast :). In addition to playing games, I also like making my own. <br> <br> Am constantly looking for new entertaining things to do and am always up for something adventurous. Ping me on my socials, lets hit those pedals together🚀 and turn this voyage into a fun accelerating ride 😎✌. </b>
+            <b data-aos="zoom-in"> I'm a front-end developer and designer, majoring in computer science and engineering at the Indian Institute of Technology, Delhi. <br> I have a keen interest in web development and machine learning, and I like to explore and pick up new skills. <br> <br> In addition to programming, I adore photography💙 and am constantly on the lookout for interesting things to capture. I enjoy singing and listening to music. <br> I'm a gamer for fun :P who loves playing all kinds of games but specifically High Graphics Open World and Racing games(yup, im a nerdy car enthusiast :). In addition to playing games, I also like making my own. <br> <br> Am constantly looking for new entertaining things to do and am always up for something adventurous. Ping me on my socials, lets hit those pedals together🚀 and turn this voyage into a fun accelerating ride 😎✌. </b>
 
         </div>
 
@@ -291,7 +291,7 @@
             </div>
         </div>
         <div class="collab" data-aos="zoom-in">
-            <p> Wanna collaborate? 🤝 <br> Just drop an email or a message on any of my social networks and turn this journey into a fun accelerating🚀 ride together 😎✌. </p>
+            <p> Wanna collaborate? 🤝 <br> Just drop an email or a message on any of my social networks and let's turn this journey into a fun accelerating🚀 ride together ✌. </p>
         </div>
 
     </section>
@@ -311,12 +311,10 @@
                     <div class="swiper-slide"><img src="assets/IMG20220411163446.jpg"></div>
                     <div class="swiper-slide"><img src="assets/IMG20220326212015__01.jpg"></div>
                     <div class="swiper-slide"><img src="assets/PXL_20220201_214908513.NIGHT.jpg"></div>
-                    <div class="swiper-slide"><img src="assets/IMG20220517194755.jpg"></div>
                     <div class="swiper-slide"><img src="assets/PXL_20220326_211536283.NIGHT__01.jpg"></div>
                     <div class="swiper-slide"><img src="assets/IMG20220326210627.jpg"></div>
                     <div class="swiper-slide"><img src="assets/IMG20220228230931.jpg"></div>
                     <div class="swiper-slide"><img src="assets/IMG20220217202610.jpg"></div>
-                    <div class="swiper-slide"><img src="assets/IMG20220227091951__01__01.jpg"></div>
                     <div class="swiper-slide"><img src="assets/IMG20220528205533.jpg"></div>
                     <div class="swiper-slide"><img src="assets/PXL_20220315_183217204__01.jpg"></div>
                     <div class="swiper-slide"><img src="assets/IMG20220326210612__01.jpg"></div>
